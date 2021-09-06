@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Subscriptions</title>
+    <link href="sub_page.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!--AJAX-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- Navigation Menu -->
+<div class="nav-bar">
+    <div class="logo-box">
+        <div class="logo">
+            <a href="home.html">Paper <i class="fab fa-pied-piper"></i></a>
+        </div>
+    </div>
+
+    <nav class="login-signup">
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li>|</li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</div>
+
+<nav class="menu">
+    <ul>
+        <li><a href="magazines.html">Magazine</a></li>
+        <li><a href="newspapers.html">Newspaper</a></li>
+        <li><a href="mysubs.html">My Subscriptions</a></li>
+    </ul>
+</nav>
+
+<!-- Content -->
+<div class="main-container">
+    <div class="sub">
+        <div class="article-image" style="background-image: url(images/logos/times.png)"></div>
+        <div class="title">
+            <h1>
+                The Times
+            </h1>
+            <div class="mid-bar"></div>
+            <h3>
+                News and opinions from The Times & The Sunday Times
+            </h3>
+            <p>
+                British daily national newspaper based in London reporting on
+                world news
+            </p>
+            <div class="divide">
+                <div class="left">
+                    <h3>
+                        Subcription cost
+                    </h3>
+                    <p>
+                        $6.99
+                    </p>
+                </div>
+
+                <div class="right">
+                    <h3>
+                        Reward Points cost
+                    </h3>
+                    <p>
+                        600pts
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review">
+            <h3>
+                Tells about this newspaper
+            </h3>
+            <div class="mid-bar"></div>
+            <p>
+                Write your review on this newspaper for points
+            </p>
+            <form action="" method="post">
+                <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                    <label>Newspaper title</label>
+                    <input type="text" name="title" class="form-control" value="">
+                </div>
+                <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                    <label>Published Data</label>
+                    <input type="text" name="title" class="form-control" value="">
+                </div>
+                <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                    <label>Article Review</label>
+                    <input type="text" name="Review" class="review">
+                </div>
+
+                <div class="button">
+                    <button type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <p>CS 3398 Spring 2020</p>
+    <p>Paper Copyright &copy; 2020</p>
+    <div class="facebook-box">
+        <a class="facebook" href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+
+    <div class="twitter-box">
+        <a class="twitter" href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div class="instagram-box">
+        <a class="instagram" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+    /*background: linear-gradient(135deg, white 27%, #60F4A0 80%);*/
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+/******** Navigation menu *********/
+.nav-bar{
+    height: 75px;
+    width: 100%;
+    background-color: #2f3640;
+}
+
+.logo-box{
+    height: 130%;
+    width: 205px;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+    margin-left: 35px;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    left: 15%;
+    top: -2.5%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-right: 36px;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover
+{
+    color: #ffe77aff;
+}
+
+/******** Navigation options *********/
+.menu{
+    padding-left: 10%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffe77aff;
+}
+
+/******** login/sign-up menu *********/
+.login-signup{
+    padding-left: 65%;
+}
+
+.login-signup ul li{
+    padding: 2px;
+}
+
+/******** subs *********/
+.main-container{
+    height: 900px;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.mid-bar{
+    height: 10px;
+    width: 95%;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 50%);
+}
+
+.article-image{
+    height: 200px;
+    width: 500px;
+    margin-left: 10%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+.title{
+    height: 275px;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.divide{
+    height: 80px;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.divide p{
+    margin-left: 5%;
+}
+
+.left{
+    height: 75px;
+    width: 49%;
+    float: left;
+
+}
+
+.right{
+    height: 75px;
+    width: 49%;
+    float: right;
+
+}
+
+.review{
+    height: 300px;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.form-group{
+    padding-top: 15px;
+}
+
+.form-group label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.form-group input{
+    width: 80%;
+    clear: both;
+    min-height: 32px;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #2f3640;
+    color: #2f3640;
+}
+
+button{
+    color: white !important;
+    background: #2f3640;
+    padding: 10px 28px;
+    margin-left: 2%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    border: 3px solid #2f3640 !important;
+    border-radius: 50px;
+}
+
+button:hover{
+    color: white !important;
+    background: #00b85c !important;
+    border: 3px solid #00b85c !important;
+    font-size: 16px;
+}
+
+/******** Footer *********/
+footer{
+    position: absolute;
+    left: 0px;
+    top: 250%;
+    height: 90px;
+    width: 101%;
+    font-family: Montserrat;
+
+    background-color: #2f3640;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ffe77aff;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+.facebook-box {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.facebook{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.twitter-box {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.twitter {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.instagram-box {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.instagram {
+    color: white;
+    width: 60px;
+    height: 60px;
+}

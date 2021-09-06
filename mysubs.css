@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+    /*background: linear-gradient(135deg, white 27%, #60F4A0 80%);*/
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+/******** Navigation menu *********/
+.nav-bar{
+    height: 75px;
+    width: 100%;
+    background-color: #2f3640;
+}
+
+.logo-box{
+    height: 130%;
+    width: 205px;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+    margin-left: 35px;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    left: 15%;
+    top: -2.5%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-right: 36px;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover
+{
+    color: #ffe77aff;
+}
+
+/******** Navigation options *********/
+.menu{
+    padding-left: 10%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffe77aff;
+}
+
+/******** login/sign-up menu *********/
+.login-signup{
+    padding-left: 65%;
+}
+
+.login-signup ul li{
+    padding: 2px;
+}
+
+/******** Subscriptions *********/
+.subs{
+    height: 900px;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.subs-container{
+    height: 800px;
+    width: 100%;
+}
+
+.subs-container i{
+    color: #00b85c;
+}
+
+.mid-bar{
+    height: 10px;
+    width: 95%;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 50%);
+}
+
+/******** Magazines *********/
+.subs-left{
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+
+.subs-container h1, p{
+    margin-left: 5%;
+}
+
+/******** Newspaper *********/
+.subs-right{
+    height: 100%;
+    width: 49%;
+    float: right;
+}
+
+.subs-right h1, p{
+    margin-left: 5%;
+}
+
+/******** Mid nav bar *********/
+.mid-nav-bar{
+    height: 65px;
+    width: 95%;
+    margin-top: 5%;
+    border: 1px solid #00b85c;
+    text-decoration: none;
+}
+
+.side-tab{
+    height: 100%;
+    width: 10px;
+    float: left;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+}
+
+.nav-tag{
+    margin-top: 20px;
+}
+
+.nav-tag h3 a{
+    color: #00b85c;
+    text-decoration: none;
+}
+
+.nav-tag a{
+    text-decoration: none;
+    color: #00b85c;
+    margin-left: 1%;
+}
+
+.img{
+    height: 60px;
+    width: 150px;
+    margin-left: 10%;
+    margin-top: -3.5%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+.view{
+    height: 50px;
+    width: 200px;
+    margin-left: 85%;
+    margin-top: -8%;
+}
+
+.view a{
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    border-radius: 8px;
+    background: #2f3640;
+}
+
+.view a:hover{
+    background: #00b85c;
+}
+
+.mini-container{
+    height: 250px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.mini-article-info{
+    margin-top: -100px;
+    margin-left: 35%;
+    height: 100px;
+    width: 300px;
+}
+
+.mini-article-info h3{
+    color: #2f3640;
+    font-size: 14px;
+}
+
+.mini-article{
+    height: 100px;
+    width: 140px;
+    margin-left: 5%;
+    background-size: cover;
+}
+
+
+/******** Footer *********/
+footer{
+    position: absolute;
+    left: 0px;
+    top: 220%;
+    height: 90px;
+    width: 101%;
+    font-family: Montserrat;
+
+    background-color: #2f3640;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ffe77aff;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+.facebook-box {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.facebook{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.twitter-box {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.twitter {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.instagram-box {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.instagram {
+    color: white;
+    width: 60px;
+    height: 60px;
+}

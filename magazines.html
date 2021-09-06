@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Magazines</title>
+    <link href="selections.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!--AJAX-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- Navigation Menu -->
+<div class="nav-bar">
+    <div class="logo-box">
+        <div class="logo">
+            <a href="home.html">Paper <i class="fab fa-pied-piper"></i></a>
+        </div>
+    </div>
+
+    <nav class="login-signup">
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li>|</li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</div>
+
+<nav class="menu">
+    <ul>
+        <li><a href="magazines.html">Magazine</a></li>
+        <li><a href="newspapers.html">Newspaper</a></li>
+        <li><a href="mysubs.html">My Subscriptions</a></li>
+    </ul>
+</nav>
+
+<div class="selection">
+    <h1>
+        Magazines
+    </h1>
+    <div class="points">
+        <h3>Available Points: </h3>
+    </div>
+    <div class="mid-bar"></div>
+    <div id="selection-container">
+        <table>
+            <tr>
+                <td></td>
+                <td><label>Magazine:</label></td>
+                <td><label>Price:</label></td>
+                <td><label>Points:</label></td>
+                <td><label>Unit:</label></td>
+                <td><label>Subtotal:</label></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/time_magazine_logo.png);"></td>
+                <td class="name">Time</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/Vogue_logo.png);"></td>
+                <td class="name">Vogue</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/gq.png);"></td>
+                <td class="name">GQ</td>
+                <td class="price">$10.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/People.png);"></td>
+                <td class="name">People</td>
+                <td class="price">$6.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/rollingstone.png);"></td>
+                <td class="name">Rolling Stones</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/ew.jpg);"></td>
+                <td class="name">Entertainment Weekly</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/National-Geographic-Logo.png);"></td>
+                <td class="name">National Geographic</td>
+                <td class="price">$5.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/usweekly.png);"></td>
+                <td class="name">Us Weekly</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/Cosmopolitan_logo_black.png);"></td>
+                <td class="name">Cosmopolitan</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/readers.png);"></td>
+                <td class="name">Reader's Digest</td>
+                <td class="price">$3.99</td>
+                <td class="rewards">10%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td class="subtotal">Subtotal:</td>
+                <td class="totalpricesubtotal"></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td class="line" style="border-top:1px solid #00b85c" colspan="7"><br />
+                    With 8.25% sales tax <span class="taxval"></span><br />
+                    Total reward points <span class="pts"></span><br />
+                    <span class="big">Total: $<span class="realtotal">0</span></span>
+                </td>
+            </tr>
+        </table>
+
+        <div class="button">
+            <div id="checkout">Checkout<span> &rarr;</span></div>
+        </div>
+    </div>
+</div>
+
+<!--Js file -->
+<script type="text/javascript" src="selections.js"></script>
+
+<!-- Footer -->
+<footer>
+    <p>CS 3398 Spring 2020</p>
+    <p>Paper Copyright &copy; 2020</p>
+    <div class="facebook-box">
+        <a class="facebook" href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+
+    <div class="twitter-box">
+        <a class="twitter" href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div class="instagram-box">
+        <a class="instagram" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

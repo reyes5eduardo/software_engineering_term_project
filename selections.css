@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+    /*background: linear-gradient(135deg, white 27%, #60F4A0 80%);*/
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+/******** Navigation menu *********/
+.nav-bar{
+    height: 75px;
+    width: 100%;
+    background-color: #2f3640;
+}
+
+.logo-box{
+    height: 130%;
+    width: 205px;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+    margin-left: 35px;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    left: 15%;
+    top: -2.5%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-right: 36px;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover
+{
+    color: #ffe77aff;
+}
+
+/******** Navigation options *********/
+.menu{
+    padding-left: 10%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffe77aff;
+}
+
+/******** login/sign-up menu *********/
+.login-signup{
+    padding-left: 65%;
+}
+
+.login-signup ul li{
+    padding: 2px;
+}
+
+.mid-bar{
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 50%);
+}
+
+/******** Magazine selection *********/
+.selection{
+    height: 150%;
+    width: 80%;
+    margin-top: 7%;
+    margin-left: 10%;
+    color: #2f3640;
+}
+
+.selection h1{
+    margin-left: 2%;
+    font-size: 45px;
+}
+
+.points{
+    height: 50px;
+    width: 250px;
+    margin-left: 10%;
+}
+
+#expand {
+    cursor: pointer;
+}
+
+#coolstuff {
+    display: none;
+}
+
+#selection-container{
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+td {
+    no-border-top: 1px solid white;
+    padding: 5px 2px;
+}
+
+.mag-image{
+    height: 60px;
+    width: 100px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+.name{
+    height: 50px;
+    width: 100px;
+}
+
+.price{
+    height: 50px;
+    width: 100px;
+}
+
+.rewards{
+    height: 50px;
+    width: 100px;
+}
+
+.amount {
+    height: 50px;
+    width: 100px;
+}
+
+.amount > input {
+    font-family: "Montserrat";
+    color: black;
+    width: 50px;
+    font-size: 16px;
+    border: white;
+    text-align: center;
+    outline: none;
+}
+
+.pricesubtotal{
+    height: 50px;
+    width: 100px;
+}
+
+.remove {
+    height: 50px;
+    width: 30px;
+}
+
+.remove > div {
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    padding: 2px;
+    transition: background .3s, border .3s, transform .3s;
+    cursor: pointer;
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    margin: auto;
+    background: #2f3640;
+}
+
+.remove.hey > div {
+    background: red;
+    border-color: red;
+    transform: scale(1.3);
+}
+
+.remove:hover > div {
+    background: red;
+    border-color: red;
+}
+
+.subtotal{
+    height: 50px;
+    width: 100px;
+}
+
+.totalpricesubtotal{
+    height: 50px;
+    width: 100px;
+}
+
+.line{
+    margin-left: 5%;
+}
+
+.big {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#checkout {
+    color: white !important;
+    background: #2f3640;
+    padding: 12px 28px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    width: 110px;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    border-radius: 50px;
+}
+
+#checkout:hover {
+    color: white !important;
+    background: #00b85c !important;
+    font-size: 16px;
+}
+
+.button{
+    padding-left: 35%;
+}
+
+/******** Footer *********/
+footer{
+    position: absolute;
+    left: 0px;
+    top: 220%;
+    height: 90px;
+    width: 101%;
+    font-family: Montserrat;
+
+    background-color: #2f3640;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ffe77aff;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+.facebook-box {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.facebook{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.twitter-box {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.twitter {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.instagram-box {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.instagram {
+    color: white;
+    width: 60px;
+    height: 60px;
+}

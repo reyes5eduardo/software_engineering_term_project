@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Magazines</title>
+    <link href="selections.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!--AJAX-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<!-- Navigation Menu -->
+<div class="nav-bar">
+    <div class="logo-box">
+        <div class="logo">
+            <a href="home.html">Paper <i class="fab fa-pied-piper"></i></a>
+        </div>
+    </div>
+
+    <nav class="login-signup">
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li>|</li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</div>
+
+<nav class="menu">
+    <ul>
+        <li><a href="magazines.html">Magazine</a></li>
+        <li><a href="newspapers.html">Newspaper</a></li>
+        <li><a href="mysubs.html">My Subscriptions</a></li>
+    </ul>
+</nav>
+
+<div class="selection">
+    <h1>
+        Magazines
+    </h1>
+    <div class="points">
+        <h3>Available Points: </h3>
+    </div>
+    <div class="mid-bar"></div>
+    <div id="selection-container">
+        <table>
+            <tr>
+                <td></td>
+                <td><label>Newspaper:</label></td>
+                <td><label>Price:</label></td>
+                <td><label>Points:</label></td>
+                <td><label>Unit:</label></td>
+                <td><label>Subtotal:</label></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/New-York-Times-Logo.png);"></td>
+                <td class="name">New York Times</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/wsj.png);"></td>
+                <td class="name">The Wall Street Journal</td>
+                <td class="price">$9.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/washington.png);"></td>
+                <td class="name">The Washington Post</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/times.png);"></td>
+                <td class="name">The Times</td>
+                <td class="price">$6.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/usatoday.png);"></td>
+                <td class="name">USA Today</td>
+                <td class="price">$5.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/The_Guardian_logo_blue.jpg);"></td>
+                <td class="name">The Guardian</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/los_Angeles_Timespng.png);"></td>
+                <td class="name">Los Angeles Times</td>
+                <td class="price">$5.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/Chicago-Tribune-logo-e1419868584331.jpg);"></td>
+                <td class="name">Chicago Tribune</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/bostonglobe.png);"></td>
+                <td class="name">The Boston Globe</td>
+                <td class="price">$4.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+            <tr class="p">
+                <td class="mag-image" style="background-image: url(images/logos/daily.png);"></td>
+                <td class="name">Daily Mail</td>
+                <td class="price">$3.99</td>
+                <td class="rewards">20%</td>
+                <td class="amount"><input type="number" value="0" max="100" min="0" required></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove"><div>&times</div></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td class="subtotal">Subtotal:</td>
+                <td class="totalpricesubtotal"></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td class="line" style="border-top:1px solid #00b85c" colspan="7"><br />
+                    With 8.25% sales tax <span class="taxval"></span><br />
+                    Total reward points <span class="pts"></span><br />
+                    <span class="big">Total: $<span class="realtotal">0</span></span>
+                </td>
+            </tr>
+        </table>
+
+        <div class="button">
+            <div id="checkout">Checkout<span> &rarr;</span></div>
+        </div>
+    </div>
+</div>
+s
+<!--Js file -->
+<script type="text/javascript" src="selections.js"></script>
+
+<!-- Footer -->
+<footer>
+    <p>CS 3398 Spring 2020</p>
+    <p>Paper Copyright &copy; 2020</p>
+    <div class="facebook-box">
+        <a class="facebook" href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+
+    <div class="twitter-box">
+        <a class="twitter" href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+
+    <div class="instagram-box">
+        <a class="instagram" href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+    /*background: linear-gradient(135deg, white 27%, #60F4A0 80%);*/
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+/******** Navigation menu *********/
+.nav-bar{
+    height: 75px;
+    width: 100%;
+    background-color: #2f3640;
+}
+
+.logo-box{
+    height: 130%;
+    width: 205px;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+    margin-left: 35px;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    left: 15%;
+    top: -2.5%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-right: 36px;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover
+{
+    color: #ffe77aff;
+}
+
+/******** Navigation options *********/
+.menu{
+    padding-left: 10%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffe77aff;
+}
+
+/******** login/sign-up menu *********/
+.login-signup{
+    padding-left: 65%;
+}
+
+.login-signup ul li{
+    padding: 2px;
+}
+
+/******** Account *********/
+.account-container{
+    height: 255%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #2f3640;
+    border: 1px solid red;
+}
+
+.account-container h1{
+    padding-left: 5%;
+}
+
+.section-box{
+    height: 350px;
+    width: 800px;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 1px solid blue;
+}
+
+/******** User info *********/
+.user-info{
+    margin-left: 5%;
+    border: 1px solid green;
+}
+
+/******** Points *********/
+.points{
+    margin-left: 5%;
+    border: 1px solid green;
+}
+
+/******** Manage subs *********/
+.manage-subs{
+    margin-left: 5%;
+    border: 1px solid green;
+}
+
+/******** Reviews *********/
+.reviews{
+    margin-left: 5%;
+    border: 1px solid green;
+}
+
+/******** Footer *********/
+footer{
+    position: absolute;
+    left: 0px;
+    top: 320%;
+    height: 90px;
+    width: 101%;
+    font-family: Montserrat;
+
+    background-color: #2f3640;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ffe77aff;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+.facebook-box {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.facebook{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.twitter-box {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.twitter {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.instagram-box {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.instagram {
+    color: white;
+    width: 60px;
+    height: 60px;
+}

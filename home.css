@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+    /*background: linear-gradient(135deg, white 27%, #60F4A0 80%);*/
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+/******** Navigation menu *********/
+.nav-bar{
+    height: 75px;
+    width: 100%;
+    background-color: #2f3640;
+}
+
+.logo-box{
+    height: 130%;
+    width: 205px;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+    margin-left: 35px;
+}
+
+.logo {
+    float: left;
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    left: 15%;
+    top: -2.5%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding-right: 36px;
+}
+
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover
+{
+    color: #ffe77aff;
+}
+
+/******** Navigation options *********/
+.menu{
+    padding-left: 10%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #ffe77aff;
+}
+
+/******** login/sign-up menu *********/
+.login-signup{
+    padding-left: 65%;
+}
+
+.login-signup ul li{
+    padding: 2px;
+}
+
+/******** Magazine Post *********/
+.mag-container{
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/******** Left side *********/
+.mag-inner-right{
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+
+.mag-article1{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.article-category {
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#category1-tag{
+    color: white !important;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 4%;
+    font-family: "Montserrat";
+    width: 10px;
+    height: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 1px solid white !important;
+    border-radius: 1px;
+}
+
+.mag-article1 a{
+    text-decoration: none;
+}
+
+.mag-article1 h3:hover{
+    color: #ffe77aff;
+}
+
+.mag-article1 h3{
+    color: white;
+    padding-top: 73%;
+    padding-left: 5%;
+}
+/******** Right side top *********/
+.mag-inner-left{
+    height: 535px;
+    width: 50%;
+    float: right;
+}
+
+.mag-article2{
+    height: 49%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#category2-tag{
+    color: white !important;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "Montserrat";
+    width: 55px;
+    height: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 1px solid white !important;
+    border-radius: 1px;
+}
+
+.mag-article2 a{
+    text-decoration: none;
+}
+
+.mag-article2 h3:hover{
+    color: #ffe77aff;
+}
+
+.mag-article2 h3{
+    color: white;
+    padding-top: 27%;
+    padding-left: 5%;
+}
+
+
+/******** Right side bottom *********/
+.mag-inner-bottom{
+    height: 250px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.mag-article3{
+    height: 100%;
+    width: 265px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#category3-tag{
+    color: white !important;
+    padding-top: 1%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 5%;
+    font-family: "Montserrat";
+    width: 80px;
+    height: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 1px solid white !important;
+    border-radius: 1px;
+}
+
+.mag-article3 a{
+    text-decoration: none;
+}
+
+.mag-article3 h3:hover{
+    color: #ffe77aff;
+}
+
+.mag-article3 h3{
+    color: white;
+    padding-top: 55%;
+    padding-left: 5%;
+}
+
+.mag-article4{
+    height: 100%;
+    width: 50%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#category4-tag{
+    color: white !important;
+    padding-top: 1%;
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-family: "Montserrat";
+    width: 55px;
+    height: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 1px solid white !important;
+    border-radius: 1px;
+}
+
+.mag-article4 a{
+    text-decoration: none;
+}
+
+.mag-article4 h3:hover{
+    color: #ffe77aff;
+}
+
+.mag-article4 h3{
+    color: white;
+    padding-top: 53%;
+    padding-left: 5%;
+}
+
+/******** Content *********/
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content i{
+    color: #00b85c;
+}
+
+/******** Trending/Recommended *********/
+.top-box{
+    width: 100%;
+    height: 49%;
+}
+
+.top-box h1{
+    color: #2f3640;
+    padding-top: 2%;
+}
+
+.top-box p{
+    color: #2f3640;
+    font-size: 20px;
+}
+
+.bottom-box{
+    width: 100%;
+    height: 49%;
+    margin-top: 150%;
+    margin-left: -100%;
+}
+
+.bottom-box h1{
+    color: #2f3640;
+}
+
+.bottom-box p{
+    color: #2f3640;
+    font-size: 20px;
+}
+
+/******** Trending/Recommended articles *********/
+.tr-mini{
+    height: 80%;
+    width: 100%;
+}
+
+.tr-container{
+    height: 25%;
+    width: 100%;
+}
+
+.tr-article-info{
+    margin-top: -100px;
+    height: 105px;
+    width: 320px;
+    float: right;
+}
+
+.tr-article-info h3{
+    color: #2f3640;
+    font-size: 14px;
+}
+
+.tr-article-info .small-tag{
+    padding-left: 1%;
+}
+
+.tr-article-info p{
+    padding-left: 1%;
+    font-size: 10px;
+}
+
+.tr-article{
+    height: 95px;
+    width: 100px;
+    background-size: cover;
+}
+
+/******** Mid section *********/
+.middle-section{
+    height: 190%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.right-side{
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+.left-side{
+    height: 100%;
+    width: 59%;
+    float: left;
+}
+
+/******** Mid nav bar *********/
+.mid-nav-bar{
+    height: 65px;
+    width: 95%;
+    margin-top: 5%;
+    border: 1px solid #00b85c;
+    text-decoration: none;
+}
+
+.side-tab{
+    height: 100%;
+    width: 10px;
+    float: left;
+    background: linear-gradient(90deg, #02a063 27%, #00b85c 80%);
+}
+
+.nav-tag{
+    margin-top: 20px;
+}
+
+.nav-tag h3 a{
+    color: #00b85c;
+    text-decoration: none;
+}
+
+.nav-tag a{
+    text-decoration: none;
+    color: #00b85c;
+    margin-left: 1%;
+}
+
+.sub-menu{
+    text-decoration: none;
+    margin-left: 25%;
+    margin-top: -40px;
+    height: 100%;
+    width: 100%;
+}
+
+.sub-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.sub-menu a{
+    color: #2f3640;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/******** More Articles *********/
+.sub-article{
+    height: 330px;
+    width: 95%;
+    margin-top: 5%;
+}
+
+.sub-left{
+    height: 100%;
+    width: 49%;
+    float: left;
+}
+
+.sub-right{
+    height: 100%;
+    width: 49%;
+    float: right;
+}
+
+.sub-article a{
+    text-decoration: none;
+}
+
+.sub-article h3{
+    color: #2f3640;
+}
+
+.sub-article p{
+    font-size: 12px;
+    color: #2f3640;
+    padding-left: 1%;
+}
+
+.tab-article{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+.small-tag{
+    font-size: 12px;
+    color: #2f3640;
+    padding-left: 1%;
+}
+
+.mini-container{
+    height: 33%;
+    width: 100%;
+}
+
+.mini-article-info{
+    margin-top: -110px;
+    height: 105px;
+    width: 190px;
+    float: right;
+}
+
+.mini-article-info h3{
+    float: right;
+    color: #2f3640;
+    font-size: 14px;
+}
+
+.mini-article-info .small-tag{
+    padding-left: 4%;
+}
+
+.mini-article-info p{
+    padding-left: 4%;
+}
+
+.mini-article{
+    height: 95px;
+    width: 100px;
+    background-size: cover;
+}
+
+/******** Footer *********/
+footer{
+    position: absolute;
+    left: 0px;
+    top: 320%;
+    height: 90px;
+    width: 101%;
+    font-family: Montserrat;
+
+    background-color: #2f3640;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #ffe77aff;
+}
+
+footer p{
+    padding-left: 5%;
+}
+
+.facebook-box {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.facebook{
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.twitter-box {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.twitter {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.instagram-box {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.instagram {
+    color: white;
+    width: 60px;
+    height: 60px;
+}
